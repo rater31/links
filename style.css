@@ -1,0 +1,59 @@
+main{
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+body{
+    background-color: #181818;
+}
+
+.perfil{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.nombre{
+    
+    background: linear-gradient(rgb(250, 151, 3),rgb(176, 212, 12));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+.esfera{
+    margin-top: 30px;
+    margin-inline: auto;
+    background-color: black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+
+}
+.btn{
+    border-radius:15px;
+    border: solid 1px;
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    border-color:aqua;
+
+    &&:hover{
+        transition: all;
+        transition-duration: 500ms;
+        background-color: aqua;
+        color: black;
+    }
+
+}
