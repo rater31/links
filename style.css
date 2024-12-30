@@ -16,6 +16,12 @@ h1{
     font-family: prueba;
     text-align: center;
 }
+.contenedor{
+    background-color: #333333;
+    padding: 10px 10px 120px 10px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
 .nombre{
     
     background: linear-gradient(rgb(250, 151, 3),rgb(176, 212, 12));
@@ -53,8 +59,8 @@ h1{
     border-color:#00ffff;
 
     -webkit-box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
--moz-box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
-box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
+    box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
 
     &&:hover{
         transition: all;
@@ -66,7 +72,7 @@ box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
 }
 
 .btn2{
-    border-image: linear-gradient(to right , #0066ff, #ff32d6) 1 1 0 1 ;
+    border-image: linear-gradient(to right , #0066ff, #ff32d6) 1 1 1 1 ;
     border-style: solid;
     /* border-radius: 25px; */
     border-width: 2px;
