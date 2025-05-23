@@ -18,7 +18,7 @@ h1{
 }
 .contenedor{
     background-color: #333333;
-    padding: 10px 10px 120px 10px;
+    padding: 10px 10px 30px 10px;
     border-radius: 25px;
     margin-top: 15px;
 }
@@ -43,59 +43,33 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    gap: 15px;
+    gap: 25px;
     align-items: center;
 
 }
-.btn{
-    border-radius:15px;
-    border: solid 3px;
-    margin: auto;
-    width: 70%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    color: white;
-    border-color:#00ffff;
-
-    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
-    -moz-box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
-    box-shadow: 0px 0px 4px 1px rgba(0,255,255,1);
-
-    &&:hover{
-        transition: all;
-        transition-duration: 500ms;
-        background-color: aqua;
-        color: black;
-    }
-
-}
-
-.btn2{
-    border-image: linear-gradient(to right , #0066ff, #ff32d6) 1 1 1 1 ;
-    border-style: solid;
-    /* border-radius: 25px; */
-    border-width: 2px;
+.btn3{
+    /* border-image: linear-gradient(to right , #ffffff, #000000) 1 1 1 1 ; */
+    background-color: #333333;
+    box-shadow: 3px 3px 0px 4px rgb(10, 10, 10);  
+    /* border-style: solid; */
+    border-radius: 25px;
+    /* border-width: 2px; */
     width: 70%;
     font-family: prueba;
+    font-weight: normal;
     color: white;
     text-decoration: none;
 
     &&:hover{
         transition: all;
-        transition-duration: 500ms;
-        background-color:whitesmoke;
-        color: black;
+        transition-duration: 250ms;
+        /* background-color:whitesmoke; */
+        box-shadow: 0px 0px 0px 4px rgb(10, 10, 10);
+        transform: translateY(3px);
+        /* color: black; */
     }
 }
 @font-face {
     font-family: prueba;
     src: url(./font/Hey\ Comic.ttf);
-
-    /* font-family: prueba2;
-    src: url(./font/Comfy\ Feeling.otf); */
-}
-@font-face {
-    font-family: prueba2;
-    src: url(./font/Comfy\ Feeling.otf);
 }
